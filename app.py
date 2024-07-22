@@ -7,14 +7,7 @@ import numpy as np
 with open('Randomforest_model.pkl', 'rb') as file:
     model = pickle.load(file)
 
-# Load the scaler (Assuming you've saved and loaded it)
-# If the scaler was not saved, you need to fit it on the training data used for the model
-# and save it similarly as the model.
 
-# Initialize Min-Max Scaler
-#scaler = MinMaxScaler()
-
-# Function to take user input and make prediction
 def predict_chd(input_data):
     #input_data_scaled = scaler.transform([input_data])
     
