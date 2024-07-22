@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 import numpy as np
-from sklearn.preprocessing import MinMaxScaler
+
 
 # Load the saved model and scaler
 with open('Randomforest_model.pkl', 'rb') as file:
